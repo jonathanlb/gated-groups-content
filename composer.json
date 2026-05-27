@@ -1,0 +1,17 @@
+{
+  "require": {
+    "google/apiclient": "^2.19"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.6",
+    "dealerdirect/phpcodesniffer-composer-installer": "^1.2",
+    "wp-coding-standards/wpcs": "^3.3",
+    "wp-phpunit/wp-phpunit": "^6.8",
+    "yoast/phpunit-polyfills": "^4.0"
+  },
+  "config": {
+    "allow-plugins": {
+      "dealerdirect/phpcodesniffer-composer-installer": true
+    }
+  }
+}

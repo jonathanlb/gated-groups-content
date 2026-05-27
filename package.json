@@ -1,0 +1,25 @@
+{
+  "name": "gated-groups-content",
+  "version": "1.0.0",
+  "description": "Use Google Groups membership for authentication and authorization to view WordPress content.",
+  "scripts": {
+    "wp-env-start": "wp-env start tests-cli",
+    "wp-env-stop": "wp-env stop tests-cli",
+    "lint": "./vendor/bin/phpcbf --standard=WordPress *.php tests/Gated_Groups_Content_Test.php",
+    "sniff": "./vendor/bin/phpcs --standard=WordPress *.php tests/Gated_Groups_Content_Test.php",
+    "test": "wp-env run tests-cli --env-cwd=wp-content/plugins/gated-groups-content ./vendor/bin/phpunit tests/Gated_Groups_Content_Test.php"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonathanlb/gated-groups-content.git"
+  },
+  "author": "Jonathan Bredin",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/jonathanlb/gated-groups-content/issues"
+  },
+  "homepage": "https://github.com/jonathanlb/gated-groups-content#readme",
+  "devDependencies": {
+    "@wordpress/env": "^11.6.0"
+  }
+}

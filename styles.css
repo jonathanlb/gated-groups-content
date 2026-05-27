@@ -1,0 +1,51 @@
+.gated-groups-content-error {
+    border: 2px solid #b00020;
+    border-radius: 1em;
+    padding-top: 0.25em;
+    padding-bottom: 0.5em;
+}
+
+.gated-groups-content-icon {
+    background: #eff6ff;
+    width: 5em;
+    height: 5em;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 2em;
+}
+
+.gated-groups-content-login-prompt {
+    padding: 3em;
+    background: #fff;
+    border: 1px solid #e2e8f0;
+    border-radius: 1em;
+    text-align: center;
+    box-shadow: 0 0.9em 1.25em -0.3em rgba(0, 0, 0, 0.1);
+}
+
+.gated-groups-content-login-link {
+    display: inline-flex; 
+    align-items: center;
+    gap: 1em;
+    background: #fff;
+    border: 2px solid #e2e8f0;
+    color: #475569;
+    padding: 0.25em 0.5em;
+    border-radius: 2em; 
+    font-weight: 600; 
+    text-decoration: none; 
+    transition: all 0.2s;
+}
+
+.gated-groups-content-login-prompt h3 {
+    font-size: 2em;
+    font-weight: 700;
+    color: #1e293b;
+    margin-bottom: 0.75em;
+}
+.gated-groups-content-login-prompt p {
+    color: #64748b;
+    margin-bottom: 3em;
+}
