@@ -1,0 +1,4 @@
+node_modules
+service-account-config.json
+vendor
+*.swp
